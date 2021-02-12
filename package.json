@@ -1,0 +1,20 @@
+{
+  "name": "http-responses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./build/main.js"
+  },
+  "keywords": [],
+  "author": "Евдоким",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuisEgoSum/http-responses.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QuisEgoSum/http-responses/issues"
+  },
+  "homepage": "https://github.com/QuisEgoSum/http-responses#readme",
+  "description": ""
+}
