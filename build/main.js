@@ -12,8 +12,8 @@ const createAbstractClass = (className) => `
 
 const createClass = (className, status, message, inheriet) => `
     static ${className} = class ${className} extends ${inheriet} {
-        constructor(playload) {
-            super(${status}, playload || "${message}")
+        constructor(playload, next) {
+            super(${status}, playload || "${message}", next)
         }
     }`
 
